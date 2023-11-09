@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7a7676; /* Background color for the navbar */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Add padding as needed */
+  }
+  
+  .navbar-title {
+    font-size: 24px; /* Adjust font size as needed */
+  }
+  
+  .navbar-items {
+    display: flex;
+    gap: 10px; /* Adjust the gap between items as needed */
+  }
+  
+  .navbar-item {
+    font-size: 18px; /* Adjust font size as needed */
+    cursor: pointer; /* Add pointer cursor for items */
+  }
+  

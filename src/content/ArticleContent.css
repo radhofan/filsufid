@@ -1,0 +1,35 @@
+/* ArticleContent.css */
+
+.article-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f2f2f2; /* Background color for the entire body */
+  }
+  
+  .article-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Text color for the title */
+    text-align: center;
+  }
+  
+  .article-username {
+    font-size: 16px;
+    font-style: italic;
+    color: #666; /* Text color for the username */
+    text-align: center;
+  }
+  
+  .article-description {
+    font-size: 18px;
+    text-align: left; /* Align the text to the left */
+    margin-top: 20px;
+    color: #444; /* Text color for the description */
+    width: 50%;
+  }
+  

@@ -1,0 +1,69 @@
+.komunitas-postbar {
+    height: max-content;
+    width: 100%;
+    /* padding: 20px; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  
+    /* border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow:
+      0 0 5px rgba(0, 0, 0, 0.2), 
+      0 0 5px rgba(0, 0, 0, 0.2), 
+      0 0 5px rgba(0, 0, 0, 0.2), 
+      0 0 5px rgba(0, 0, 0, 0.2);  */
+  }
+
+  .komunitas-sortbar {
+    width: 100%; /* Adjust the width as needed */
+    height: max-content; /* Adjust the height as needed */
+    background-color: white; /* Add your desired background color */
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow:
+    0 0 5px rgba(0, 0, 0, 0.2), /* Top */
+    0 0 5px rgba(0, 0, 0, 0.2), /* Right */
+    0 0 5px rgba(0, 0, 0, 0.2), /* Bottom */
+    0 0 5px rgba(0, 0, 0, 0.2); /* Left */
+    margin-top: 3%;
+  }
+
+
+  .komunitas-parent{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    flex-direction: row;
+    background-color: #eeeaea;
+  }
+
+  .komunitas-main{
+    /* border: 1px solid black; */
+  }
+
+  .komunitas-category{
+    /* border: 1px solid black; */
+    width: 10%;
+    height: 100vh;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Horizontally center children */
+  }
+
+  .komunitas-categories{
+    list-style-type: none;
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .pagination{
+    margin: 7px 7px 7px 7px;
+    display: flex;
+    flex-direction: column;
+  }

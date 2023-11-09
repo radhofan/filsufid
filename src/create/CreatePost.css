@@ -1,0 +1,61 @@
+.createpost-container {
+    display: flex;
+    flex-direction: row; /* Stacks children horizontally */
+    justify-content: space-between; /* Provides space between children */
+    background-color: #eeeaea; /* Add your desired background color */
+    height: 100%;
+    overflow: hidden;
+}
+
+.createpost{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.createpost-main{
+    background-color: rgb(192, 188, 182);
+    width: max-content;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 25px 25px 25px 25px;
+    width: 50%;
+    max-width: 50%;
+    height: 80%;
+}
+
+.createpost-preview{
+    background-color: rgb(192, 188, 182);
+    border-radius: 20px;
+    width: 50%;
+    max-width: 50%;
+    margin: 25px 25px 25px 25px;
+    height: 80%;
+}
+
+.createpost-preview-text{
+    word-wrap: break-word;
+}
+
+.createpost-preview-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 20%;
+  }
+
+.createpost-button{
+  background-color: #b9b2aa; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.createpost-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }

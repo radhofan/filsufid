@@ -1,0 +1,76 @@
+.akun-parent {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  box-sizing: border-box; /* Ensure border is included in calculations */
+}
+
+.akun-container {
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* border: 1px solid black; Change to row to align children horizontally */
+}
+
+.akun-left {
+  background-color: #e0e0e0; /* Adjust background color as needed */
+  padding: 10px; /* Adjust padding as needed */
+  display: flex;
+  flex-direction: column; /* Set to column to occupy vertical space */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  width: 100%; /* Adjust the width as needed */
+  height: 30%; /* Adjust the height as needed relative to the .akun-container */
+  /* border: 1px solid black; */
+}
+
+.akun-right {
+  background-color: #e0e0e0; /* Adjust background color as needed */
+  padding: 20px; /* Adjust padding as needed */
+  display: flex;
+  flex-direction: column; /* Set to column to occupy vertical space */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */ /* Occupy all available space */
+  height: 100%; /* Adjust the height as needed relative to the .akun-container */
+  /* border: 1px solid black; */
+}
+
+.akun-kiri-title{
+    
+}
+.akun-kiri-desc{
+    
+}
+
+.akun-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px; 
+  padding: 10px;
+  width: 30%;
+  height: 80%;
+  border: 1px solid black;
+}
+
+.akun-form-group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.akun-form-logoutButton{
+  margin-top: 10px;
+}
+  
+  
+  
+  
+  
+  

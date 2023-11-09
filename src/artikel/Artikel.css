@@ -1,0 +1,87 @@
+.article-box-parent {
+    border: 1px solid #ccc; /* Add a border */
+    padding: 20px; /* Add padding for spacing */
+    margin: 10px; /* Add margin for spacing between boxes */
+    background-color: #f9f9f9; /* Background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center; /* Center the content horizontally */
+    width: 50%;
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(3, 1fr); /* Create columns with a maximum of 3 items per row */
+    grid-gap: 10px; /* Add spacing between items */
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+.article-box {
+    border: 1px solid #ccc; /* Add a border */
+    padding: 20px; /* Add padding for spacing */
+    margin: 10px; /* Add margin for spacing between boxes */
+    background-color: #f9f9f9; /* Background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center; /* Center the content horizontally */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .article-box h2 {
+    font-size: 24px; /* Title font size */
+    margin-bottom: 10px; /* Spacing between title and content */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .article-content {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .article-content li {
+    text-align: left;
+    padding: 5px;
+  }
+
+  .artikel-sections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .artikel-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .artikel-sortbar{
+    width: 50%; /* Adjust the width as needed */
+    height: 13%; /* Adjust the height as needed */
+    background-color: white; /* Add your desired background color */
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow:
+    0 0 5px rgba(0, 0, 0, 0.2), /* Top */
+    0 0 5px rgba(0, 0, 0, 0.2), /* Right */
+    0 0 5px rgba(0, 0, 0, 0.2), /* Bottom */
+    0 0 5px rgba(0, 0, 0, 0.2); /* Left */
+    margin-top: 3%;
+    padding: 10px;
+  }
+
+  .artikel{
+    background-color: #eeeaea;
+    height: 100%;
+  }
+
+  
+  
+  
